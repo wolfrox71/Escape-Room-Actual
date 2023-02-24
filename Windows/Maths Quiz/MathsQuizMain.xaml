@@ -1,0 +1,16 @@
+﻿<Window x:Class="Escape_Room.Windows.Maths_Quiz.MathsQuizMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Escape_Room.Windows.Maths_Quiz"
+        mc:Ignorable="d"
+        Title="MathsQuizMain" Height="450" Width="800">
+    <Canvas Name="_Canvas">
+        <TextBlock x:Name="questionBox" HorizontalAlignment="Center" Height="76" Margin="0,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="328" FontSize="48"/>
+        <TextBox x:Name="answerBox" HorizontalAlignment="Center" Height="36" Margin="0,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="328" FontSize="24" TextChanged="answerBox_TextChanged"/>
+        <TextBlock x:Name="timeBox" HorizontalAlignment="Left" Height="24" Margin="659,33,0,0" TextWrapping="Wrap" Text="Time:" VerticalAlignment="Top" Width="102"/>
+        <TextBlock x:Name="scoreBox" HorizontalAlignment="Left" Height="24" Margin="659,73,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" Width="102"/>
+
+    </Canvas>
+</Window>

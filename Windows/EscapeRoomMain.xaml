@@ -1,0 +1,16 @@
+﻿<Window x:Class="Escape_Room.Windows.EscapeRoomMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Escape_Room.Windows"
+        mc:Ignorable="d"
+        Title="EscapeRoomMain" Height="450" Width="800">
+    <Canvas Name="_Canvas">
+        <Button x:Name="SpaceInvaders" Content="Space Invaders" HorizontalAlignment="Left" Height="62" Margin="93,78,0,0" VerticalAlignment="Top" Width="169" Click="SpaceInvaders_Click"/>
+        <Button x:Name="DoorBtn" Content="Door" Canvas.Left="678" Canvas.Top="246" Height="146" Width="99" Click="DoorBtn_Click"/>
+        <Button x:Name="MathsQuizBtn" Content="Maths Quiz" RenderTransformOrigin="7.505,4.787" Canvas.Left="316" Canvas.Top="78" Height="62" Width="167" Click="MathsQuizBtn_Click"/>
+        <Button x:Name="MasterMindBtn" Content="MasterMind" RenderTransformOrigin="7.505,4.787" Canvas.Left="316" Canvas.Top="186" Height="62" Width="168" Click="MasterMindBtn_Click"/>
+
+    </Canvas>
+</Window>
